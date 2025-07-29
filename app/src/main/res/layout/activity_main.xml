@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="?attr/colorSurface"
+        android:gravity="bottom"
+        android:paddingBottom="24dp"
+        app:title="@string/app_name"
+        app:titleCentered="true"/>
+
+
+    <ImageButton
+        android:id="@+id/btnProfile"
+        android:layout_width="75dp"
+        android:layout_height="121dp"
+        android:background="@null"
+        android:contentDescription="@string/menu_profile"
+        android:gravity="bottom"
+        android:padding="12dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:tint="?attr/colorOnSurface" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWeights"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:contentDescription="@string/weights_list_desc"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tvBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:text="@string/bmi_placeholder"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_add_24" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

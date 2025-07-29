@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeightTracker</string>
+
+    <!-- Profil -->
+    <string name="hint_first_name">Vorname</string>
+    <string name="hint_last_name">Nachname</string>
+    <string name="hint_age">Alter</string>
+    <string name="hint_height_cm">Größe (cm)</string>
+    <string name="gender_m">m</string>
+    <string name="gender_f">w</string>
+    <string name="save_profile">Profil speichern</string>
+    <string name="menu_profile">Profil</string>
+    <string name="add_weight">Gewicht hinzufügen</string>
+    <string name="bmi_placeholder">BMI: –</string>
+    <string name="weights_list_desc">Liste deiner Gewichtseinträge</string>
+
+
+
+
+    <!-- Gewicht -->
+    <string name="hint_weight">Gewicht (kg)</string>
+    <string name="save_weight">Speichern</string>
+</resources>
